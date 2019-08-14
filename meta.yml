@@ -1,0 +1,9 @@
+---
+name: 'Aula 4: Popurrí'
+locale: pt
+type: learning
+beta: false
+language: php
+id_format: "%05d"
+order: []
+private: false
