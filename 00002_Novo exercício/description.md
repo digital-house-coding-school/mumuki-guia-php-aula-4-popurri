@@ -4,7 +4,7 @@ Ou seja, a tabela **filmes** deve ter uma chave estrangeira para a tabela **estu
 
 Neste caso nós já lhe damos parte da migration montada (**note que o método `Schema::table` é usado para modificar uma tabela**) e é seu trabalho completar as funções anônimas com as seguintes especificações:
 
-> **A.** A função `up` deve criar primeiro a coluna que será a chave estrangeira. Para isto você deve usar o método da classe ``Blueprint`` (isto é, a variável `$table`) chamada `unsignedInteger` que receberá o nome da coluna. Neste caso, vamos chamá-lo **estudio_id**
+> **A.** A função `up` deve criar primeiro a coluna que será a chave estrangeira. Para isto você deve usar o método da classe ``Blueprint`` (isto é, a variável `$table`) chamado `unsignedInteger` que receberá o nome da coluna. Neste caso, vamos chamá-lo **estudio_id**
 
 > **B.** A função `up` também deve criar a relação entre as tabelas usando o seguinte método:
 
