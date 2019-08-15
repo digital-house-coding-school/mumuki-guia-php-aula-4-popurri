@@ -48,7 +48,7 @@ public function testUp(): void {
 		
 		$this->assertTrue(is_string(Schema::$tableAlter), "O método Schema::table deve receber uma string como ŕimeiro parâmetro.");
 		
-		$this->assertTrue(Schema::$tableAlter === "movies", "A tabela a modificar com o método `down` deveria se chamar 'filmes'. No entando, está se chamando '" . Schema::$tableAlter . "'");
+		$this->assertTrue(Schema::$tableAlter === "filmes", "A tabela a modificar com o método `down` deveria se chamar 'filmes'. No entando, está se chamando '" . Schema::$tableAlter . "'");
 		
 		$this->assertTrue(Schema::$funcAlter instanceof Closure, "O segundo parâmetro recebido por Schema::table deve ser uma função anônima.");
 		
