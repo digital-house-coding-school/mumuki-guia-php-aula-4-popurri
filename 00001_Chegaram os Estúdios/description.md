@@ -9,3 +9,11 @@ Dado isso, pedimos que você conclua o arquivo de migração com as seguintes es
 > 3. O método `down` deve apagar a tabela usando o método `Schema::drop` que recebe o nome da tabela a ser deletada como parâmetro.
 
 Na caixa abaixo deixamos um exemplo incompleto da solução, caso você precise.
+
+Desconsidere o alerta que diz:
+```
+Sua solução funcionou, mas há coisas para melhorar
+Objetivos que não foram atendidos:
+up é um identificador muito curto
+```
+O nome do método TEM QUE SER UP MESMO! :)
