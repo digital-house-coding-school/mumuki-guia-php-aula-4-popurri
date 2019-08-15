@@ -15,3 +15,11 @@ $table->foreign('FK')->references('PK')->on('TABELA');
 > onde o FK deve indicar o nome da chave estrangeira (studio_id), PK o nome da chave primária na tabela a ser relacionada (id) e TABELA o nome da tabela a ser relacionada (estudios)
 
 > **C.** A função `down` deve remover a chave estrangeira e sua coluna. O Laravel resolve isso por um único método da classe `Blueprint` (isto é, a variável `$table`) chamada `dropForeign`. Este método recebe uma string com a convenção TABELA_COLUNA_foreign. Nesse caso, você deve enviar **filmes_estudio_id_foreign**
+
+Desconsidere o alerta que diz:
+```
+Sua solução funcionou, mas há coisas para melhorar
+Objetivos que não foram atendidos:
+up é um identificador muito curto
+```
+O nome do método TEM QUE SER UP MESMO! :)
